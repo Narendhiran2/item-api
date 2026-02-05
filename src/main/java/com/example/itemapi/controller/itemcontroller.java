@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/items")
-public class itemcontroller {
+public class ItemController {
 
     private final itemservice itemService;
 
-    public itemcontroller(itemservice itemService) {
+    public ItemController(itemservice itemService) {
         this.itemService = itemService;
     }
 
